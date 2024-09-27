@@ -9,18 +9,18 @@
     <h1>Voronoi Cells Game</h1>
     <div id="game-container">
         <svg id="voronoiCanvas" width="800" height="800"></svg>
-        <div id="countdown">
-            <p><strong>Cells Remaining:</strong> <span id="remainingCells">20</span></p>
+        <div id="ui-container">
+            <div id="countdown">
+                <p><strong>Cells Remaining:</strong> <span id="remainingCells">20</span></p>
+            </div>
+            <div id="scoreboard">
+                <p><strong>Green Area: <span id="greenArea">0%</span></strong></p>
+                <p><strong>Red Area: <span id="redArea">0%</span></strong></p>
+            </div>
+            <div id="controls">
+                <button id="resetButton">Reset</button>
+            </div>
         </div>
-    </div>
-
-    <div id="scoreboard">
-        <p><strong>Green Area: <span id="greenArea">0%</span></strong></p>
-        <p><strong>Red Area: <span id="redArea">0%</span></strong></p>
-    </div>
-
-    <div id="controls">
-        <button id="resetButton">Reset</button>
     </div>
 
     <div id="endGameMessage" class="hidden"></div>
