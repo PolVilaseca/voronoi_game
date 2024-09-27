@@ -23,30 +23,28 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#countdown {
+#ui-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
-    font-size: 24px;  /* Larger font size for visibility */
+}
+
+#countdown, #scoreboard, #controls {
+    margin-bottom: 20px;
+}
+
+#countdown, #scoreboard {
+    font-size: 24px;
     color: #333;
 }
 
-#scoreboard {
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    font-size: 24px;  /* Larger font size */
-}
-
 #greenArea {
-    color: darkgreen;  /* Dark green color for green area */
-    margin-right: 40px;
+    color: darkgreen;
+    margin-bottom: 10px;
 }
 
 #redArea {
-    color: darkred;  /* Dark red color for red area */
-}
-
-#controls {
-    margin: 20px auto;
+    color: darkred;
 }
 
 #resetButton {
